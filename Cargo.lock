@@ -799,14 +799,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a5996294f19bd3aae0453a862ad728f60e6600695733dd5df01da90c54363a3c"
 
 [[package]]
-name = "rust-zero2prod"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "tokio",
-]
-
-[[package]]
 name = "rustc_version"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1239,6 +1231,14 @@ name = "windows_x86_64_msvc"
 version = "0.48.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1a515f5799fe4961cb532f983ce2b23082366b898e52ffbce459c86f67c8378a"
+
+[[package]]
+name = "zero2prod"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "tokio",
+]
 
 [[package]]
 name = "zstd"
